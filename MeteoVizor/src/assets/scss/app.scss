@@ -1,0 +1,101 @@
+/*
+Template Name: MeteoVizor - Admin & Dashboard Template
+File: App Css
+*/
+
+//Core files
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import './config/variables';
+@import 'bootstrap/scss/mixins';
+// @import "./app-material.scss";
+// @import "./bootstrap-material.scss";
+@import './bootstrap.scss';
+
+@import '@toast-ui/chart/dist/toastui-chart.min.css';
+
+// Structure
+@import './structure/topbar';
+@import './structure/footer';
+@import './structure/leftbar-tab';
+@import './structure/leftbar';
+@import './structure/horizontal-nav';
+
+// Components
+@import './components/reboot';
+@import './components/waves';
+@import './components/card';
+@import './components/badge';
+@import './components/buttons';
+@import './components/dropdown';
+@import './components/tables';
+@import './components/progress';
+@import './components/alert';
+@import './components/forms';
+@import './components/modals';
+@import './components/switch';
+@import './components/form-advanced';
+@import './components/form-validation';
+@import './components/form-wizard';
+@import './components/form-editor';
+@import './components/nav';
+@import './components/spinners';
+@import './components/preloader';
+
+// Plugins
+@import './plugins/ui-slider';
+@import './plugins/custom-scrollbar';
+@import './plugins/charts';
+@import './plugins/sweet-alert';
+@import './plugins/dropzone';
+@import './plugins/maps';
+@import './plugins/calendar';
+@import './plugins/img-crop';
+
+// Pages
+@import './pages/general';
+@import './pages/background-color';
+@import './pages/files';
+@import './pages/ribbons';
+@import './pages/profile';
+@import './pages/projects';
+
+@import 'nouislider/distribute/nouislider.css';
+
+/** **/
+
+.df {
+	display: flex;
+}
+
+.fdc {
+	flex-direction: column;
+}
+.fdr {
+	flex-direction: row;
+}
+
+.gap10 {
+	gap: 10px;
+}
+.jcc {
+	justify-content: center;
+}
+.aic {
+	align-items: center;
+}
+
+.ov {
+	overflow: auto;
+}
+.flex1 {
+	flex: 1;
+}
+
+.background-opacity {
+	background-color: rgba(248, 249, 250, 0.8);
+}
+
+.page-wrapper .page-content-tab {
+	padding: 0 10px;
+}
